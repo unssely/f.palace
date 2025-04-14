@@ -14,4 +14,14 @@ body{
 
 body{
     background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+.container{
+    max-width: 1171px;
+    margin: 0 auto;
+    position: relative;
 }
